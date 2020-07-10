@@ -26,7 +26,7 @@ Ognuna delle classi presenti in questo package verrà mappata all'interno del DB
 
 ## Installazione dell'Applicazione
 L'installazione può avvenire principalmente in due modi:
-1. Installando il solo comando ADB (https://www.softstore.it/guida-come-installare-adb-su-windows/) ed eseguendo il comando: ''' adb install com.swapuniba.crowdpulse ''' su terminale.
+1. Installando il solo comando ADB (https://www.softstore.it/guida-come-installare-adb-su-windows/) ed eseguendo il comando: '''adb install com.swapuniba.crowdpulse''' su terminale.
 2. Eseguendo il progetto con Android Sudio 3.2 o versioni successive.
 
 ## Configurazione delle principali funzionalità
