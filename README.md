@@ -52,5 +52,5 @@ Ogni 24 ore o ogni volta che viene aperta l'applicazione c'è un lavoro che vien
 ### Debug:
 Le attività di debug possono essere attivate modificando in true la variabile booleana SHOW_DEBUG. Questo darà la possibilità a chi sta testando l'applicazione di visualizzare un ulteriore bottone in Pannello di Controllo per raggiungere le schermate di testing.
 Alcuni comandi utili da eseguire sul terminale sono i seguenti:
-* Per verificare l'effettiva esistenza dell'allarme aprire il terminale ed eseguire questa riga di codice: ''' adb shell dumpsys alarm com.swapuniba.crowdpulse''' (per comprendere la tabella visualizzata  visita: https://stackoverflow.com/questions/28742884/how-to-read-adb-shell-dumpsys-alarm-output/31600886)
-* Per verificare l'effettiva esistenza del lavoro di invio al server o del lavoro per il controllo giornaliero aprire il terminale ed eseguire questa riga di codice: ''' adb shell dumpsys jobscheduler com.swapuniba.crowdpulse'''.
+* Per verificare l'effettiva esistenza dell'allarme aprire il terminale ed eseguire questa riga di codice: ```adb shell dumpsys alarm com.swapuniba.crowdpulse``` (per comprendere la tabella visualizzata  visita: https://stackoverflow.com/questions/28742884/how-to-read-adb-shell-dumpsys-alarm-output/31600886)
+* Per verificare l'effettiva esistenza del lavoro di invio al server o del lavoro per il controllo giornaliero aprire il terminale ed eseguire questa riga di codice: ```adb shell dumpsys jobscheduler com.swapuniba.crowdpulse```.
